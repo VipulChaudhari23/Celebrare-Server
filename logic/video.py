@@ -9,7 +9,7 @@ def createVideoOnAws(brideName, groomName, weddingDate):
     r = get("http://13.235.139.86", headers=headers)
     PATH = os.path.dirname(os.path.realpath(__file__))
     CLOUD_URL = 'http://13.235.139.86'
-    CLOUD_AUTH = HTTPBasicAuth('celebrare-openshot', 'openshot')
+    CLOUD_AUTH = HTTPBasicAuth('Celebrare-Openshot', 'openshot')
 
     # project Endpoint
 
