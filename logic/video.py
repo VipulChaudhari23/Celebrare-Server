@@ -6,9 +6,9 @@ from requests.auth import HTTPBasicAuth
 
 def createVideoOnAws(brideName, groomName, weddingDate):
     headers = {'Authorization': 'Token d98c0c10e50d1206cb9146fd9a59a90f1edd79a7'}
-    r = get("http://34.234.220.197", headers=headers)
+    r = get("http://13.235.139.86", headers=headers)
     PATH = os.path.dirname(os.path.realpath(__file__))
-    CLOUD_URL = 'http://34.234.220.197'
+    CLOUD_URL = 'http://13.235.139.86'
     CLOUD_AUTH = HTTPBasicAuth('celebrare-openshot', 'openshot')
 
     # project Endpoint
