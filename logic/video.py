@@ -5,7 +5,7 @@ from requests.auth import HTTPBasicAuth
 
 
 def createVideoOnAws(brideName, groomName, weddingDate):
-    headers = {'Authorization': 'Token d98c0c10e50d1206cb9146fd9a59a90f1edd79a7'}
+    headers = {'Authorization': 'Token 4b6a7b35dd9e04cf889eb996933e16499b2f23ca'}
     r = get("http://13.235.139.86", headers=headers)
     PATH = os.path.dirname(os.path.realpath(__file__))
     CLOUD_URL = 'http://13.235.139.86'
